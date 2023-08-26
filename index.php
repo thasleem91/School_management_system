@@ -11,7 +11,7 @@
 	</head>
 	<body class="back">
 		<?php include"navbar.php";?>
-		<img src="img/School_management.jpg" width="800">
+		<img src="img/Exam.jpg" width="800">
 		
 		<div class="login">
 			<h1 class="heading">Admin Login</h1>
