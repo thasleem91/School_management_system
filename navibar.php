@@ -22,12 +22,22 @@
 				<li><a href="logout.php">Logout</a></li>
 					';
 				}
-				else{
+				elseif(isset($_SESSION["PID"]))
+				{
+					echo'
+					<li><a href="parent_home.php">parent Home</a></li>
+				<li><a href="parent_change_pass.php">parent</a></li>
+				<li><a href="logout.php">Logout</a></li>
+				';
+				}
+				else
+				{
 					echo'
 					
 					<li><a href="index.php">Admin</a></li>
 				<li><a href="teacher_login.php">Teacher</a></li>
-				<li><a href="contact.php">Contact Us</a></li>';
+				<li><a href="contact.php">Contact Us</a></li>
+				<li><a href="parent_login.phpphp">Parent</a></li>';
 				}
 			?>
 				
