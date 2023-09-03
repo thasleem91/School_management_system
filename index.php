@@ -6,12 +6,12 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>School Management System - Tutor Joe's</title>
+		<title>School Management System - Code_Hunters</title>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 	<body class="back">
 		<?php include"navbar.php";?>
-		<img src="img/Exam.jpg" width="800">
+		<img src="img/exam.jpg" width="800">
 		
 		<div class="login">
 			<h1 class="heading">Admin Login</h1>
@@ -51,7 +51,7 @@
 			</div>
 		</div>
 		<div class="footer">
-			<footer><p>Copyright &copy; Tutor Joe's </p></footer>
+			<footer><p>Code_Hunters.Org </p></footer>
 		</div>
 		<script src="js/jquery.js"></script>
 		 <script>
